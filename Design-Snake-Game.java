@@ -88,14 +88,5 @@ class SnakeGame {
         return snakeBody.size() - 1;
     }
 
-    public static void main(String[] args) {
-        SnakeGame s = new SnakeGame(3, 2, new int[][] { { 1, 2 }, { 0, 1 } });
-        System.out.println(s.move("R"));
-        System.out.println(s.move("D"));
-        System.out.println(s.move("R"));
-        System.out.println(s.move("U"));
-        System.out.println(s.move("L"));
-        System.out.println(s.move("U"));
-
-    }
+   
 }
